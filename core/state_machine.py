@@ -1,0 +1,9 @@
+from enum import Enum
+
+class OrderState(Enum):
+    CREATED = "CREATED"
+    PAYMENT_PENDING = "PAYMENT_PENDING"
+    PAID = "PAID"
+    OUT_FOR_DELIVERY = "OUT_FOR_DELIVERY"
+    DELIVERED = "DELIVERED"
+    FAILED = "FAILED"
